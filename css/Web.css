@@ -1,0 +1,142 @@
+/* 
+    Selector { property: value;} 
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+*/
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+h1{
+    font-size: 5rem;
+    margin-top: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #F10086;
+    line-height: 2;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #F10086;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #F10086;
+}
+a{
+    color: #F10086;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #711A75;
+}
+
+hr{
+    border: dotted #711A75 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+    background-color: #711A75;
+    padding: 50px 0 20px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+    
+}
+.profile-image{
+    width: 200px;
+    height: 200px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code-gif{
+    width: 25%;
+    margin-right: 30px;
+    float:left;
+}
+.award-gif{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+/* .code-skill-p{
+    clear:left;   it will clear the float css == anti-float
+}
+*/
+
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright-message{
+    color: #F10086;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* https://css3buttongenerator.com/ */
+.btn {
+    background: #711A75;
+    background-image: -webkit-linear-gradient(top, #711A75, #F10086);
+    background-image: -moz-linear-gradient(top, #711A75, #F10086);
+    background-image: -ms-linear-gradient(top, #711A75, #F10086);
+    background-image: -o-linear-gradient(top, #711A75, #F10086);
+    background-image: linear-gradient(to bottom, #711A75, #F10086);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #180A0A;
+    background-image: -webkit-linear-gradient(top, #180A0A, #fff);
+    background-image: -moz-linear-gradient(top, #180A0A, #fff);
+    background-image: -ms-linear-gradient(top, #180A0A, #fff);
+    background-image: -o-linear-gradient(top, #180A0A, #fff);
+    background-image: linear-gradient(to bottom, #180A0A, #fff);
+    text-decoration: none;
+    color: #F10086;
+  }
+  .img{
+    width: -webkit-fill-available;
+  }
+
+  .a{
+    margin: 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .a:hover{
+    color:#ffffff ;
+  }
